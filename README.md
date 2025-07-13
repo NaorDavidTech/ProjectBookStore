@@ -22,13 +22,14 @@ This project implements a full-featured **bookstore management system** using **
   - View and manage users (Admins only)
 
 - 🛒 **Customer Management**
-  - Load/save customer data from file
+  - Load and display customer data from `customer.txt`
   - Search customer info
-  - Simulate book purchases (optional extension)
+
 
 - 📁 **Persistent Data Storage**
   - Books saved in `items.txt`
   - Users stored in `users.txt`
+  - Customers stored in `customer.txt`
   - Logs saved in `log.txt`
 
 ---
@@ -40,6 +41,7 @@ This project implements a full-featured **bookstore management system** using **
 - `bookstore.h` – Function declarations and data structures
 - `items.txt` – Sample book database (20+ titles)
 - `users.txt` – System users (admin + test users)
+- `customer.txt` – Customer records (ID, name, phone, email)
 - `log.txt` – Sample session logs with time-stamped actions
 
 ---
@@ -55,7 +57,7 @@ This project implements a full-featured **bookstore management system** using **
 
 ## 🧠 How It Works
 
-1. On startup, the system loads books and users from text files.
+1. On startup, the system loads books, users, and customers from text files.
 2. User logs in with credentials (up to 3 attempts).
 3. Menu is displayed based on user level.
 4. Every action is logged in `log.txt`.
