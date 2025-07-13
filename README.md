@@ -49,8 +49,7 @@ This project implements a full-featured **bookstore management system** using **
 | Username | Password | Level | Name         |
 |----------|----------|-------|--------------|
 | admin    | admin    | 3     | Manager_System |
-| naor     | 123456   | 2     | Naor David     |
-| nd7      | 123456   | 1     | David Naor     |
+
 
 ---
 
