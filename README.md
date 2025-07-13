@@ -64,6 +64,6 @@ This project implements a full-featured **bookstore management system** using **
 ---
 
 
-## 👤 Author
+## 👨‍🔧 Author
 
 Naor David   
